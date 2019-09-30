@@ -8,9 +8,9 @@
 
 	<aop:aspectj-autoproxy ></aop:aspectj-autoproxy>
 
-	<bean id="customerBo" class="com.philips.customer.bo.impl.CustomerBoImpl" />
+	<bean id="customerBo" class="com.samples.customer.bo.impl.CustomerBoImpl" />
 
 	<!-- Aspect -->
-	<bean id="logAspect" class="com.philips.aspect.LoggingAspect" />
+	<bean id="logAspect" class="com.samples.aspect.LoggingAspect" />
 
 </beans>
